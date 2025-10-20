@@ -11,6 +11,6 @@ def find_substring_position(s,t):
 s = input("ENTER THE DNA SEQUENCE:").upper()
 t = input("ENTER THE SUBSTRING YOU WANT TO FIND IN DNA STRING:").upper()
 
-positions=find_substring_position(s,t)
-print(positions)
+result=find_substring_position(s,t)
+print(result)
 

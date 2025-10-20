@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt 
 def find_substring_position(s,t):
     positions=[]
     for i in range(len(s) - len(t) + 1):
